@@ -16,9 +16,9 @@ app.post('/submit-flag', (req, res) => {
     const correctFlag = "CTF{my_first_flag}"; // This is the secret password!
 
     if (userFlag === correctFlag) {
-        res.send("<h1>Congratulations! You hacked it!</h1>");
+        res.send("<h1>NO YOU COULLDNT! You hacked it!</h1>");
     } else {
-        res.send("<h1>Wrong flag. Try again!</h1><br><a href='/'>Go back</a>");
+        res.send("<h1>whomp whomp</h1><br><a href='/'>Go back</a>, how does this look");
     }
 });
 
